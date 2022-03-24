@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Montserrat-bold';
+    src: url('../fonts/Montserrat-Bold.eot');
+    src: url('Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../fonts/Montserrat-Bold.woff') format('woff'),
+        url('../fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-regular';
+    src: url('../fonts/Montserrat-Regular.eot');
+    src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff'),
+        url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: rgba(235, 222, 222, 0.753);
+    font-family:"Montserrat-regular";
+}
+.input-search{
+    width:600px;
+}
+
+@media screen and (max-width:1200px){
+
+    .input-search{
+    width:500px;
+}
+}
+
+@media screen and (max-width:992px){
+
+.input-search{
+width:300px;
+}
+}
+
+@media screen and (max-width:785px){
+
+.input-search{
+width:200px;
+}
+}
+
+@media screen and (max-width:760px){
+
+.input-search{
+display:none;
+}
+}

@@ -1,0 +1,21 @@
+.fal {
+    color: #ffffff;
+}
+.bd-navbar {
+padding: 0.75rem 0;
+background-color: #7952b3;
+}
+
+.btn-bd-download {
+font-weight: 600;
+color: #ffe484;
+border-color: #ffe484;
+}
+.btn-start{
+background-color: #7952b3;
+}
+@media screen and (max-width:372px) {
+.mt-download{
+margin-top: 15px;
+}
+}
